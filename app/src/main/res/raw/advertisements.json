@@ -1,0 +1,8 @@
+{
+  "video_id" : "v1",
+  "ad_id" : "a1",
+  "ad_start_time" : 5,
+  "ad_end_time" : 10,
+  "ad_image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
+  "on_click": "https://www.myntra.com/1700944"
+}
