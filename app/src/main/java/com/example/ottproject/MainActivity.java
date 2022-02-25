@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
     private Timer timer;
     private Runnable runnable;
 
-    private String video1Url = "android.resource://" + getPackageName() + "/" + R.raw.video1;
-    private String video2Url = "android.resource://" + getPackageName() + "/" + R.raw.video2;
+//    private String video1Url = "android.resource://" + getPackageName() + "/" + R.raw.video1;
+//    private String video2Url = "android.resource://" + getPackageName() + "/" + R.raw.video2;
+    private String video1Url = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4";
+    private String video2Url = "https://jsoncompare.org/LearningContainer/SampleFiles/Video/MP4/Sample-MP4-Video-File-Download.mp4";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -86,7 +86,7 @@ public class VideoActivity extends AppCompatActivity {
         MediaItem mediaItem = MediaItem.fromUri(videoUrl);
         exoPlayer.setMediaItem(mediaItem);
         exoPlayer.prepare();
-        exoPlayer.play();
+        exoPlayer.setPlayWhenReady(true);
 
         ImageView fullscreenButton = findViewById(R.id.fullscreen);
         fullscreenButton.setOnClickListener(new View.OnClickListener() {
